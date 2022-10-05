@@ -8,7 +8,7 @@ with role "ADMINISTRATOR".
 
 How to Run
 
-Unzip the provided package or alternatively clone the repository (https://github.com/AlIgnatova/modis-java-spring-22) and open with IntelliJ. Additonaly, there needs to be relational Database.
+Unzip the provided package or alternatively clone the repository (https://github.com/AlIgnatova/hospital-information-system.git) and open with IntelliJ. Additonaly, there needs to be relational Database.
 Information for jdbc driver username and password, as well as for default local port can be found in : src/main/resources/application.yaml file.
 
 Once successfully built, you can run the service by running HospitalInformationSystemApplication.java.
