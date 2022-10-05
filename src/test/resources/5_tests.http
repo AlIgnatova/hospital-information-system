@@ -1,0 +1,52 @@
+POST http://localhost:8080/api/tests
+Content-Type: application/json
+
+{
+  "hospitalStayId": "1",
+  "testType": "IMAGING",
+  "whatToBeTested": "Cor et puilmo Ro-grapia"
+}
+
+###
+
+POST http://localhost:8080/api/tests
+Content-Type: application/json
+
+{
+  "hospitalStayId": "2",
+  "testType": "LABORATORY",
+  "whatToBeTested": "CBC, peripheral blood smear, Vit. B12, serum iron and serum ferritin"
+}
+
+###
+
+POST http://localhost:8080/api/tests
+Content-Type: application/json
+
+{
+  "hospitalStayId": "3",
+  "testType": "IMAGING",
+  "whatToBeTested": "Ro-graphia abdomen"
+}
+
+###
+
+POST http://localhost:8080/api/tests
+Content-Type: application/json
+
+{
+  "hospitalStayId": "3",
+  "testType": "LABORATORY",
+  "whatToBeTested": "CBC, biochemistry - ASAT, ALAT, GGT, Bilirubin"
+}
+
+###
+
+POST http://localhost:8080/api/tests
+Content-Type: application/json
+
+{
+  "hospitalStayId": "4",
+  "testType": "LABORATORY",
+  "whatToBeTested": "HBV-Ag, HCV-Ag, HAV-Ag, Anti-HBcore, Anti-HBV-IgG, CBC, biochemistry - ASAT, ALAT, GGT, Bilirubin"
+}

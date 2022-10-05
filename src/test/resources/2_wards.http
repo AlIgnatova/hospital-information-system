@@ -1,0 +1,52 @@
+POST http://localhost:8080/api/wards/
+Content-Type: application/json
+
+{
+  "wardType": "CARDIOLOGY",
+  "bedCapacity": 20,
+  "staff":  ["EmilvQ7", "TodorovD3", "IvanovaM4"]
+}
+
+###
+
+POST http://localhost:8080/api/wards/
+Content-Type: application/json
+
+{
+  "wardType": "HEMATOLOGY",
+  "bedCapacity": 15,
+  "staff":  ["IgnA2", "TodorovaQ6"]
+}
+
+###
+
+POST http://localhost:8080/api/wards/
+Content-Type: application/json
+
+{
+  "wardType": "GASTROENTEROLOGY",
+  "bedCapacity": 25,
+  "staff":  ["LiubomiovE8", "EmilovaV10", "PetrovaN11"]
+}
+
+###
+
+POST http://localhost:8080/api/wards/
+Content-Type: application/json
+
+{
+  "wardType": "LABORATORY",
+  "bedCapacity": 0,
+  "staff":  ["TodorovaL9"]
+}
+
+###
+
+POST http://localhost:8080/api/wards/
+Content-Type: application/json
+
+{
+  "wardType": "IMAGING",
+  "bedCapacity": 0,
+  "staff":  ["TsvetkovaS12"]
+}

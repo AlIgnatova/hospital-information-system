@@ -1,0 +1,62 @@
+POST http://localhost:8080/api/patients/
+Content-Type: application/json
+
+{
+  "firstName": "Petkan",
+  "middleName": "Petkov",
+  "lastName": "Draganov",
+  "egn": "5505101234",
+  "address": "Sofia, ul.Paraskeva 20"
+}
+
+###
+
+POST http://localhost:8080/api/patients
+Content-Type: application/json
+
+{
+  "firstName": "Ivan",
+  "middleName": "Draganov",
+  "lastName": "Petkov",
+  "egn": "4505101234",
+  "address": "Sofia, ul.Paraskeva 20"
+}
+
+###
+
+POST http://localhost:8080/api/patients
+Content-Type: application/json
+
+{
+  "firstName": "Stoicho",
+  "middleName": "Lozev",
+  "lastName": "Lozev",
+  "egn": "5405101234",
+  "address": "Sofia, ul.Paraskeva 20"
+}
+
+###
+
+POST http://localhost:8080/api/patients
+Content-Type: application/json
+
+{
+  "firstName": "Penka",
+  "middleName": "Bachova",
+  "lastName": "Stoicheva",
+  "egn": "5805101234",
+  "address": "Sofia, ul.Paraskeva 20"
+}
+
+###
+
+POST http://localhost:8080/api/patients
+Content-Type: application/json
+
+{
+  "firstName": "Yoana",
+  "middleName": "Kioseva",
+  "lastName": "Petrova",
+  "egn": "6005101234",
+  "address": "Sofia, ul.Paraskeva 20"
+}

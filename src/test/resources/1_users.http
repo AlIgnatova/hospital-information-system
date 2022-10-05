@@ -1,0 +1,142 @@
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Aleks",
+  "lastName": "Ign",
+  "password": "parolataNaAleks#123",
+  "role": "DOCTOR",
+  "emailAddress": "alexandra.ignatova@gmail.com"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Denis",
+  "lastName": "Todorov",
+  "password": "parolataNaDenis#123",
+  "role": "DOCTOR",
+  "emailAddress": "denis.t@abv.bg"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Maya",
+  "lastName": "Ivanova",
+  "password": "parolataNaMaya#123",
+  "role": "NURSE",
+  "emailAddress": "maya.ivanova@gmail.com"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Jasmin",
+  "lastName": "Qnkova",
+  "password": "parolataNaJasmin#123",
+  "role": "ADMINISTRATOR",
+  "emailAddress": "jasmin.qnkova@gmail.com"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Qna",
+  "lastName": "Todorova",
+  "password": "parolataNaQna#123",
+  "role": "NURSE",
+  "emailAddress": "qna.todorova@abv.bg"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Qnko",
+  "lastName": "Emilv",
+  "password": "parolataNaQnko#123",
+  "role": "DOCTOR",
+  "emailAddress": "qnko.e@abv.bg"
+}
+
+###
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Emil",
+  "lastName": "Liubomiov",
+  "password": "parolataNaEmil#123",
+  "role": "DOCTOR",
+  "emailAddress": "emil.l@abv.bg"
+}
+
+###
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Liubov",
+  "lastName": "Todorova",
+  "password": "parolataNaLiubov#123",
+  "role": "DOCTOR",
+  "emailAddress": "liubov.t@abv.bg"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Vqra",
+  "lastName": "Emilova",
+  "password": "parolataNaVqra#123",
+  "role": "NURSE",
+  "emailAddress": "vqra.e@abv.bg"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Nadejda",
+  "lastName": "Petrova",
+  "password": "parolataNaNadejda#123",
+  "role": "NURSE",
+  "emailAddress": "nadejda.p@abv.bg"
+}
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "Sofiq",
+  "lastName": "Tsvetkova",
+  "password": "parolataNaSofiq#123",
+  "role": "DOCTOR",
+  "emailAddress": "sofiq.tsv@abv.bg"
+}

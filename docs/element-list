@@ -1,0 +1,14 @@
+course.spring.hospitalinformationsystem
+course.spring.hospitalinformationsystem.config
+course.spring.hospitalinformationsystem.dao
+course.spring.hospitalinformationsystem.dto
+course.spring.hospitalinformationsystem.entity
+course.spring.hospitalinformationsystem.entity.enums
+course.spring.hospitalinformationsystem.exception
+course.spring.hospitalinformationsystem.init
+course.spring.hospitalinformationsystem.service
+course.spring.hospitalinformationsystem.service.impl
+course.spring.hospitalinformationsystem.service.serviceUtils
+course.spring.hospitalinformationsystem.utils
+course.spring.hospitalinformationsystem.web
+course.spring.hospitalinformationsystem.web.jwt

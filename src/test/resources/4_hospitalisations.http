@@ -1,0 +1,52 @@
+POST http://localhost:8080/api/hospitalstays
+Content-Type: application/json
+
+{
+  "patientEGN": "5505101234",
+  "wardId": 1,
+  "diagnosisOnAdmission": "ARRHYTMIA"
+}
+
+###
+
+POST http://localhost:8080/api/hospitalstays
+Content-Type: application/json
+
+{
+  "patientEGN": "4505101234",
+  "wardId": 1,
+  "diagnosisOnAdmission": "HEART_FAILURE"
+}
+
+###
+
+POST http://localhost:8080/api/hospitalstays
+Content-Type: application/json
+
+{
+  "patientEGN": "5405101234",
+  "wardId": 2,
+  "diagnosisOnAdmission": "ANAEMIA"
+}
+
+###
+
+POST http://localhost:8080/api/hospitalstays
+Content-Type: application/json
+
+{
+  "patientEGN": "5805101234",
+  "wardId": 3,
+  "diagnosisOnAdmission": "GASTRITIS"
+}
+
+###
+
+POST http://localhost:8080/api/hospitalstays
+Content-Type: application/json
+
+{
+  "patientEGN": "6005101234",
+  "wardId": 3,
+  "diagnosisOnAdmission": "HEPATITIS"
+}
