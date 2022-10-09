@@ -118,9 +118,9 @@ public class HospitalStayRestController {
      * @return HospitalStayDto model of the updated with the added Decursus HospitalStay
      */
     @PutMapping("/{id}/decursus")
-    public HospitalStayDto addDecursus(@PathVariable("id")Long id, @Valid @RequestBody String decursus, Errors errors){
+    public HospitalStayDto addDecursus(@PathVariable("id")Long id, @Valid @RequestBody InputDecursusDto decursus, Errors errors){
         handleValidationErrors(errors);
-      HospitalStay updated = hospitalStayService.addDecursus(id, decursus);
+      HospitalStay updated = hospitalStayService.addDecursus(id, decursus.getText());
       return getHospitalStayDto(updated);
     }
 
@@ -131,10 +131,10 @@ public class HospitalStayRestController {
      * @param decursus the updated version of the Decursus with param decId
      * @return HospitalStayDto model of the updated with the edited Decursus HospitalStay
      */
-    @PutMapping("/{id}/editdecursus/{decId}")
+    @PutMapping("/{id}/decursus/{decId}")
     public HospitalStayDto editDecursus(@PathVariable("id")Long id, @PathVariable("decId") Long decId,
-                                        @Valid @RequestBody String decursus){
-        HospitalStay updated = hospitalStayService.editDecursus(id, decId, decursus);
+                                        @Valid @RequestBody InputDecursusDto decursus){
+        HospitalStay updated = hospitalStayService.editDecursus(id, decId, decursus.getText());
         return getHospitalStayDto(updated);
     }
 
@@ -158,9 +158,9 @@ public class HospitalStayRestController {
      * @return HospitalStayDto model of the updated with added treatment HospitalStay
      */
     @PutMapping("/{id}/treatment")
-    public HospitalStayDto addTreatment(@PathVariable("id")Long id, @Valid @RequestBody List<String> medications, Errors errors){
+    public HospitalStayDto addTreatment(@PathVariable("id")Long id, @Valid @RequestBody InputMedicationsDto medications, Errors errors){
        handleValidationErrors(errors);
-        HospitalStay updated = hospitalStayService.addTreatment(id, medications);
+        HospitalStay updated = hospitalStayService.addTreatment(id, medications.getMedicationList());
         return getHospitalStayDto(updated);
     }
 
